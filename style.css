@@ -1,0 +1,129 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#corpo {
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    background: rgb(23, 23, 23);
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid chocolate;
+    
+}
+
+.calculadora-cima {
+    width: 400px;
+    height: 110px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#input {
+    background: rgb(23, 23, 23);
+    color: white;
+    width: 290px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#escrita {
+    color: white;
+    text-align: center;
+}
+
+.calculadora-corpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.botao {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(23, 23, 23);
+    border: none;
+    color: white;
+}
+
+.botao-maior {
+    width: 133.3px;
+    height: 100px;
+    background-color: rgb(23, 23, 23);
+    border: none;
+    color: white;
+}
+
+.botao:hover, .botao-maior:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.texto-botao {
+    font-size: 40px;
+    text-align: center;
+}
+
+.texto-botao:hover {
+    font-size: 50px;
+    transition: all 0.15s;
+}
+
+.texto-botao-maior {
+    font-size: 70px;
+}
+
+.texto-botao-maior:hover {
+    font-size: 80px;
+    transition: all 0.15s;
+}
+
+.simbolo {
+    color: chocolate;
+}
+
+.simbolo:hover {
+    color: white;
+}
+
+/* especificos */
+
+#c {
+    font-size: 60px;
+    margin-bottom: 6px;
+}
+
+#c:hover {
+    font-size: 70px;
+    transition: all 0.15s;
+}
+
+#botao-dividir {
+    font-size: 70px;
+}
+
+#botao-dividir:hover {
+    font-size: 80px;
+    transition: all 0.15s;
+}
+
+#virgula {
+   margin-bottom: 15px;
+}
