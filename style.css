@@ -63,15 +63,7 @@ html {
     color: white;
 }
 
-.botao-maior {
-    width: 133.3px;
-    height: 100px;
-    background-color: rgb(23, 23, 23);
-    border: none;
-    color: white;
-}
-
-.botao:hover, .botao-maior:hover {
+.botao:hover {
     color: red;
     cursor: pointer;
 }
@@ -83,15 +75,6 @@ html {
 
 .texto-botao:hover {
     font-size: 50px;
-    transition: all 0.15s;
-}
-
-.texto-botao-maior {
-    font-size: 70px;
-}
-
-.texto-botao-maior:hover {
-    font-size: 80px;
     transition: all 0.15s;
 }
 
@@ -122,8 +105,4 @@ html {
 #botao-dividir:hover {
     font-size: 80px;
     transition: all 0.15s;
-}
-
-#virgula {
-   margin-bottom: 15px;
 }
